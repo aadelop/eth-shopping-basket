@@ -13,7 +13,7 @@ export function Products() {
 
     return <div>
             <h2>Products</h2>
-            <table>
+            <table className='table'>
                 <thead>
                     <tr>
                         <th>Nombre</th>
