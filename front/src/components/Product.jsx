@@ -12,5 +12,23 @@ export function Product() {
             Cargando..</div>
     }
 
-    return <p> {JSON.stringify(data)}</p>
+    return <div>
+        <h3>Product</h3>
+        <table className="table">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <td>{data.ProductID}</td>
+                </tr>
+                <tr>
+                    <th>Nombre</th>
+                    <td>{data.ProductName}</td>
+                </tr>
+                <tr>
+                    <th>Price</th>
+                    <td>{data.UnitPrice}</td>
+                </tr>
+            </thead>
+        </table>
+    </div>
 }
