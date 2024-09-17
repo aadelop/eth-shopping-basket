@@ -9,7 +9,7 @@ import {Products} from './components/Products'
 import {Product} from './components/Product'
 
 const queryClient = new QueryClient();
-const Context = createContext(null)
+export const Context = createContext(null)
 
 function App() {
 
